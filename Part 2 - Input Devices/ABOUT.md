@@ -1,0 +1,2 @@
+# Input Devices:
+I am going to be using the trackpad and the keyboard of this laptop. The keyboard is supposed to be a 8 * 17 matrix if I am not mistaken and the touchpad is an I2C device. The ESP-IDF code I have linked should work for most Elan I2C Touchpads, but I am not sure. Haven't had time to focus on this part till now. 

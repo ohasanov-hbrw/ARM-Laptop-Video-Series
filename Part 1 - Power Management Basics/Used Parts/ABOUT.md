@@ -1,0 +1,14 @@
+# Here is the list of the components I used for the creation of this video:
+- STD35P6LLF6 P Channel MOSFET: all P channels that I used are this exact model, similar property MOSFETs can be used I guess
+- DSS16-0045A Schottky Diode: As I was not able to source a proper ideal diode, this will do
+- 0.91" 128x32 Oled Lcd Display SSD1306: This is going to be used with the MCU to control and monitor the battery stuff when the BMS is implemented
+- ESP32 or Pi Pico: (I have both, gotta see which one I will be using)
+- IRF530 N Channel MOSFET: to control all the P channels
+- 1N5819 1A 40V Schottky Diodes
+- 3V3 1/2W Zener Diodes
+- 16V 1/2W Zener Diodes
+- 15V 1/2W Zener Diodes
+- MP2315 Voltage Regulator: These ones are honestly not that great, I already had one just blow up. I will try to source something else, but these have great specs on paper
+- XL4015 DC-DC 5A Voltage Regulator: One with a constant current potentiometer would work for charging a battery through a BMS
+- Various Resistors, cables, heatsinks...
+- A USB-C PD Trigger board: the one I had had the markings lasered, sooo... Get a proper one. 
